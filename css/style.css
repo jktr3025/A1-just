@@ -17,6 +17,7 @@ body{
     font-size: 14px;
     color: #222328;
     background-color: white;
+    position: relative;
 }
 #wrap{
     width: 1200px;
@@ -241,8 +242,8 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: 300;
-    display: none;
+    z-index: 700;
+    /* display: none; */
 }
 .pop h3{
     font-size: 30px;
@@ -264,5 +265,4 @@ body{
     right: 20px;
     bottom: 30px;
     cursor: pointer;
-
 }

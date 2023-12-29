@@ -50,6 +50,7 @@ $(".not_gall h2").click(function(){
 })//click
 
 //공지사항 pop
+$(".pop").hide();
 $(".n_pop").click(function(){
     $(".pop").show();
 })//click
